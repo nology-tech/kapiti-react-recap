@@ -1,10 +1,15 @@
+import "./App.css";
 
-import './App.css';
-
-import SearchPokemon from "./containers/SearchPokemon/SearchPokemon"
+import SearchPokemon from "./containers/SearchPokemon/SearchPokemon";
+import PokeList from "./containers/PokeList/PokeList";
 
 const App = () => {
-  return <SearchPokemon />
-}
+  return (
+    <>
+      <SearchPokemon />
+      <PokeList />
+    </>
+  );
+};
 
 export default App;
